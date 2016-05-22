@@ -1,16 +1,16 @@
 <div class="swiper-container" id="guide-swiper">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      <img src="/wuyang158158.github.io/images/7.png" />
+      <img src="/myapp/images/7.png" />
     </div>
     <div class="swiper-slide">
-      <img src="/wuyang158158.github.io/images/5.png" />
+      <img src="/myapp/images/5.png" />
     </div>
     <div class="swiper-slide">
-      <img src="/wuyang158158.github.io/images/6.png" />
+      <img src="/myapp/images/6.png" />
     </div>
     <div class="swiper-slide" action-type="goto.index">
-      <img src="/wuyang158158.github.io/images/4.png" />
+      <img src="/myapp/images/4.png" />
     </div>
   </div>
 </div>

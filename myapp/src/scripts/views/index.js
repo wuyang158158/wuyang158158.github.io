@@ -77,8 +77,7 @@ SPA.defineView('index',{
 
       //第一次渲染数据
       $.ajax({
-        //url:'/api/indexList.php',
-        url:'/myapp/mock/index.json',
+        url:'/api/indexList.php',
         success:function(res){
           //第一个获得的数据临时存储在indexTempList里面
           vm.indexTempList = res.data;
@@ -149,8 +148,7 @@ SPA.defineView('index',{
                head.attr('src', '/myapp/images/ajax-loader.gif');
                //TODO ajax下拉刷新数据
                $.ajax({
-                 //url:'/api/indexListNew.php',
-                 url:'/myapp/mock/indexHomeList.json',
+                 url:'/api/indexListNew.php',
                  data:{
                    type:'refresh'
                  },
@@ -174,8 +172,7 @@ SPA.defineView('index',{
                foot.attr('src', '/myapp/images/ajax-loader.gif');
                //TODO ajax上拉加载数据
                 $.ajax({
-                  //url:'/api/indexListNew.php',
-                  url:'/myapp/mock/indexList.json',
+                  url:'/api/indexListNew.php',
                   data:{
                     page:pageNo,
                     pageSize:pageSize
