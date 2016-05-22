@@ -1,0 +1,91 @@
+  <header>
+    <ul>
+      <li class="yo-ico" action-type="show.sidebar">&#xe618;</li>
+      <li>麦圈</li>
+      <li class="yo-ico">&#xe61d;</li>
+    </ul>
+  </header>
+  <div spa-widget="scroll" class="scroll-div" data-scroll-id="homeHotScroll"  ms-visible="!isShowLoading">
+  <div>
+    <div class="head">
+        <img src="/myapp/images/arrow.png"/>
+      <span>下拉刷新...</span>
+    </div>
+  <nav>
+    <div class="swiper-container" id="pic-swiper">
+       <div class="swiper-wrapper">
+         <div class="swiper-slide">
+           <p><img src="/myapp/images/1.png" /></p>
+         </div>
+         <div class="swiper-slide">
+           <p><img src="/myapp/images/1.png" /></p>
+         </div>
+         <div class="swiper-slide">
+           <p><img src="/myapp/images/1.png" /></p>
+         </div>
+       </div>
+       <!-- 如果需要分页器 -->
+       <div class="swiper-pagination"></div>
+     </div>
+    <div id="fixedMenu" class="fixedMenu">
+      <ul id="home-hot-nav">
+        <li action-type="tap.hot.slide"><span class="active">悬赏</span></li>
+        <li action-type="tap.hot.slide"><span>热门</span></li>
+        <li action-type="tap.hot.slide"><span>精选</span></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="swiper-container" id="home-hot-swiper">
+         <div class="swiper-wrapper">
+           <div class="swiper-slide swiper-no-swiping">
+              <section>
+                <div ms-repeat="indexList">
+                  <ul>
+                    <li>
+                      <i><img ms-src="el.footer_img" /></i>
+                      <b ms-text="el.name"></b>
+                    </li>
+                    <li></li>
+                    <li>
+                      <i><img ms-src="el.img" /></i>
+                      <b>
+                        <em ms-text="el.moneyreward"></em><span ms-text="el.price"></span>元
+                      </b>
+                    </li>
+                  </ul>
+                  <h3 ms-text="el.my_h"></h3>
+                  <p ms-text="el.my_p"></p>
+                  <ul>
+                    <li>
+                      <i class="yo-ico">&#xe638;</i>
+                      <b ms-text="el.my_yo_a"></b>
+                    </li>
+                    <li>
+                      <i class="yo-ico">&#xe621;</i>
+                      <b ms-text="el.my_yo_b"></b>
+                    </li>
+                    <li></li>
+                    <li ms-text="el.my_reward"></li>
+                    <span>|</span>
+                    <li ms-text="el.my_surplus"></li>
+                  </ul>
+                </div>
+                <div class="foot">
+                  <img src="/myapp/images/arrow.png"/>
+                  <span>上拉加载更多...</span>
+                </div>
+              </section>
+            </div>
+              <div class="swiper-slide swiper-no-swiping">
+                热门
+              </div>
+              <div class="swiper-slide swiper-no-swiping">
+                精选
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="yo-loading" ms-visible='isShowLoading'>
+      <div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+  </div>

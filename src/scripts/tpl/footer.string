@@ -1,0 +1,19 @@
+<div class="m-index">
+  <div class="m-index-container" id="m-index-container"></div>
+    <footer>
+      <ul>
+        <li action-type="tap.switch" data-tag="index">
+          <i class="yo-ico active">&#xe67f;</i>
+          <b class="active">首页</b>
+        </li>
+        <li action-type="tap.switch" data-tag="news">
+          <i class="yo-ico">&#xe643;</i>
+          <b>消息</b>
+        </li>
+        <li action-type="tap.my">
+          <i class="yo-ico">&#xe626;</i>
+          <b>我</b>
+        </li>
+      </ul>
+    </footer>
+</div>
