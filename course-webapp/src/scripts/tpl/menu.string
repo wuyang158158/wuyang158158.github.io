@@ -1,0 +1,12 @@
+<div class="m-menu">
+  <header>
+    <img src="/course-webapp/images/phone.png">
+  </header>
+  <h2>萌萌哒小妖精</h2>
+  <h3>这个家伙很懒，什么也没留下</h3>
+  <ul>
+    <li action-type="goto.home" data-tag="live">足球现场</li>
+    <li action-type="goto.home" data-tag="life">足球生活</li>
+    <li action-type="goto.home" data-tag="beauty">足球美女</li>
+  </ul>
+</div>

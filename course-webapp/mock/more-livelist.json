@@ -1,0 +1,19 @@
+{
+  "ver": "1.0",
+  "ret": true,
+  "errcode": 0,
+  "errmsg": "",
+  "data": [{
+    "img": "/course-webapp/images/img1.jpg",
+    "title": "小丸子"
+  }, {
+    "img": "/course-webapp/images/img2.jpg",
+    "title": "火帽子"
+  }, {
+    "img": "/course-webapp/images/img3.jpg",
+    "title": "跳跳娃"
+  }, {
+    "img": "/course-webapp/images/img4.jpg",
+    "title": "红袋鼠"
+  }]
+}

@@ -1,0 +1,27 @@
+{
+  "ver": "1.0",
+  "ret": true,
+  "errcode": 0,
+  "errmsg": "",
+  "data": [{
+      "picUrl": "/course-webapp/images/img1.jpg",
+      "width": 522,
+      "height": 783,
+      "title": "朴智星:韩国战中国需做好准备 优异战绩是过去式"
+  },{
+      "picUrl": "/course-webapp/images/img2.jpg",
+      "width": 550,
+      "height": 786,
+      "title": "黄博文杜威微博表决心 卡希尔开心未和国足同组"
+  },{
+      "picUrl": "/course-webapp/images/img3.jpg",
+      "width": 535,
+      "height": 800,
+      "title": "颜强：国足出线与否不是最重要 态度决定一切"
+  },{
+      "picUrl": "/course-webapp/images/img4.jpg",
+      "width": 578,
+      "height": 504,
+      "title": "吴曦:渴望12强战出色表现 任航:国足需做好自己"
+  }]
+}
